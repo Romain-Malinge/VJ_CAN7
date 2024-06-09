@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MidiShortcutPreset name="Novation_LCXL" presetId="-99364023">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<ShortcutManager name="MIDIShortcutManagerShortcuts">
+		<Shortcut name="Shortcut" uniqueId="1704725721753" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link8" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link8" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187877552" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786861795" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/video/effects/huerotate/effect/sat.scale" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/video/effects/huerotate/effect/sat.scale" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187871152" value="0.50393700787401574104" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1712825411006" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/video/effects/mirror/effect/in/out" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/video/effects/mirror/effect/in/out" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187871920" value="0.50393700787401574104" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721779" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/4/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/4/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/4/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/4/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149955216" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721743" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link3" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link3" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187876784" value="0.039370078740157479769" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1713990601577" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/video/effects/strobe/effect/frequency" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/video/effects/strobe/effect/frequency" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187872688" value="1" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721745" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link4" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link4" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187877040" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721811" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/4/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/4/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/4/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/4/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149947024" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721749" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link6" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link6" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187877552" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786861769" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link5" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link5" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187868080" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721740" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link1" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link1" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187876272" value="0.50393700787401574104" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721791" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/7/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/7/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/7/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/7/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149959056" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721757" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/2/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187883696" value="1" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721819" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/6/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/6/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/6/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/6/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149950608" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721751" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link7" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link7" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187877808" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721775" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/3/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/3/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/3/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/3/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149954960" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721955" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187884720" value="1" numSteps="128"/>
+			<NamedValues>
+				<Value first="Off" second="0"/>
+				<Value first="On" second="1"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721759" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/3/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187883952" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786875635" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/video/effects/colorize/effect/contrast" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/video/effects/colorize/effect/contrast" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187872176" value="0.50393700787401574104" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1712674058163" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/disconnectall" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/disconnectall" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage key="125451505149962896" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Off" second="0"/>
+				<Value first="On" second="1"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721827" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/8/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/8/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/8/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/8/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149951120" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721803" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/2/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/2/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/2/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/2/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149946512" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1705052413250" paramNodeName="ParamEvent" behaviour="1032" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/tempocontroller/tempotap" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/tempocontroller/tempotap" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage key="197509099187890352" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721771" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/2/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/2/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/2/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/2/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149954704" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1713990601574" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/video/effects/twitcheffect/effect/lightfrequency" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/video/effects/twitcheffect/effect/lightfrequency" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187872944" value="0.50393700787401574104" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721747" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link5" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link5" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187877296" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786875639" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link2" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link2" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187867312" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1705052413252" paramNodeName="ParamEvent" behaviour="1032" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/tempocontroller/resync" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/tempocontroller/resync" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage key="197509099187890608" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1713990601613" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/video/effects/brightnesscontrast/effect/contrast" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/video/effects/brightnesscontrast/effect/contrast" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187871408" value="0.38582677165354328785" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721795" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/8/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/8/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/8/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/8/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149959312" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786875638" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link1" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link1" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187867056" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1713990601630" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/video/effects/radialcloner/effect/startrotation" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/video/effects/radialcloner/effect/startrotation" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187871664" value="0.50393700787401574104" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721807" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/3/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/3/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/3/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/3/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149946768" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721823" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/7/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/7/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/7/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/7/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149950864" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721787" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/6/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/6/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/6/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/6/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149958800" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721767" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149954448" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786861773" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link7" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link7" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187868592" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721765" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/master" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/master" translationType="1" allowedTranslationTypes="1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187885232" value="1" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725722538" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/video/effects/transform/scale/behaviour/speed" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/video/effects/transform/scale/behaviour/speed" translationType="1" allowedTranslationTypes="1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187884976" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1709153323446" paramNodeName="ParamRange" behaviour="65544" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/tempocontroller/tempo" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/tempocontroller/tempo" translationType="1" allowedTranslationTypes="1"/>
+			<Subtarget type="1" optionIndex="8"/>
+			<RawInputMessage key="197509099187890864" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786861771" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link6" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link6" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187868336" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721815" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/5/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/5/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/5/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/5/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149950352" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721741" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/selectedclip/dashboard/link2" translationType="4" allowedTranslationTypes="7"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedclip/dashboard/link2" translationType="4" allowedTranslationTypes="7"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187876528" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721799" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149946256" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786861775" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link8" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link8" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187868848" value="1" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786875641" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link3" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link3" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187867568" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721755" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/1/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187883440" value="1" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1709153323448" paramNodeName="ParamRange" behaviour="65544" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/tempocontroller/tempo" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/tempocontroller/tempo" translationType="1" allowedTranslationTypes="1"/>
+			<Subtarget type="1" optionIndex="7"/>
+			<RawInputMessage key="197509099187891120" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704786875643" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/dashboard/link4" translationType="1" allowedTranslationTypes="19"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/1/dashboard/link4" translationType="1" allowedTranslationTypes="19"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187867824" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721761" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/4/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/4/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187884208" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721783" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/5/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/5/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/5/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/5/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="125451505149958544" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704725721763" paramNodeName="ParamRange" behaviour="8" inputDeviceName="Launch Control XL" outputDeviceName="Launch Control XL">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="197509099187884464" value="1" numSteps="128"/>
+		</Shortcut>
+	</ShortcutManager>
+</MidiShortcutPreset>
+

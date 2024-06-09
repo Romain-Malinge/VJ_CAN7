@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DmxController automapEnabled="1" artNetName="Arena-node" bindAdapter="Localhost">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<Inputs/>
+</DmxController>
+

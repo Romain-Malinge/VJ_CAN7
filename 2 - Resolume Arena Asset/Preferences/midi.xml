@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<midiController enabled="1" midiClockMode="2" octaveNumForMiddleC="0" syncDeviceName="">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<inputDevices>
+		<device name="APC40 mkII"/>
+		<device name="CASIO USB-MIDI"/>
+		<device name="Launch Control XL"/>
+	</inputDevices>
+	<outputDevices>
+		<device name="APC40 mkII"/>
+		<device name="CASIO USB-MIDI"/>
+		<device name="Launch Control XL"/>
+		<device name="Microsoft GS Wavetable Synth"/>
+	</outputDevices>
+	<controlSurfaces>
+		<device port="APC40 mkII" name="Akai APC40 mkII" option="3"/>
+	</controlSurfaces>
+</midiController>
+

@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Composition name="Composition" uniqueId="1701146269263" numDecks="1" currentDeckIndex="0" numLayers="3" numColumns="9" compositionIsRelative="0">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<CompositionInfo name="MUCH_1" description="Première compositionde test" width="1920" height="1080">
+		<DeckInfo name="M1" id="1691226172680" closed="0"/>
+	</CompositionInfo>
+	<Params name="Params">
+		<Param name="Name" T="STRING" default="" value="MUCH_1"/>
+		<Param name="Description" T="STRING" default="" value="Première compositionde test"/>
+		<ParamRange name="Speed" T="DOUBLE" default="1" value="0.99999999999961275421">
+			<PhaseSourceStatic name="PhaseSourceStatic" phase="0.24999999999994559907"/>
+		</ParamRange>
+		<Param name="KeyboardShortcutPreset" T="STRING" default="" value="Default"/>
+		<Param name="MidiShortcutPreset" T="STRING" default="" value="Default"/>
+		<Param name="OscShortcutPreset" T="STRING" default="" value="OutputAllMessages"/>
+		<Param name="DmxShortcutPreset" T="STRING" default="" value="Default"/>
+	</Params>
+	<AnimationSettings name="AnimationSettings" uniqueId="1694191241105">
+		<Setting name="Speed" flags="9223372036854775810"/>
+	</AnimationSettings>
+	<Params name="Dashboard">
+		<ParamRange name="Link 1" altName="COLO" T="DOUBLE" default="0.20975592742813589653" value="0">
+			<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+		</ParamRange>
+		<ParamRange name="Link 2" altName="RGB" T="DOUBLE" default="1" value="1">
+			<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+		</ParamRange>
+		<ParamRange name="Link 3" T="DOUBLE" default="0" value="0.0078740157480314959537">
+			<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0078740157480314959537"/>
+		</ParamRange>
+		<ParamRange name="Link 4" altName="TWITCH" T="DOUBLE" default="1" value="1">
+			<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+		</ParamRange>
+		<ParamRange name="Link 8" T="DOUBLE" default="0" value="0.0078740157480314959537">
+			<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0078740157480314959537"/>
+		</ParamRange>
+	</Params>
+	<CompositionView name="CompositionView">
+		<FoldParams name="FoldParams">
+			<FoldState component="/compositionproperties/dashboard/" folded="0"/>
+			<FoldState component="/groupedcomponent/composition/" folded="1"/>
+			<FoldState component="/groupedcomponent/crossfader/" folded="1"/>
+			<FoldState component="/groupedcomponent/groupedcomponent/audio/" folded="1"/>
+			<FoldState component="/groupedcomponent/renderpasschaincomponent/fisheye/" folded="0"/>
+			<FoldState component="/groupedcomponent/renderpasschaincomponent/fisheye/view/groupedcomponent/" folded="0"/>
+			<FoldState component="/groupedcomponent/video/" folded="1"/>
+		</FoldParams>
+	</CompositionView>
+	<AudioTrack name="AudioTrack">
+		<AudioEffectChain name="AudioEffectChain"/>
+	</AudioTrack>
+	<VideoTrack name="VideoTrack">
+		<Params name="Params">
+			<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+			</ParamRange>
+			<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+			</ParamRange>
+		</Params>
+		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146269377" baseType="RenderPassChain">
+			<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691226172633" baseType="Effect" index="0">
+				<View name="View" folded="1" bCanBeDisabled="0" bCanBeRemoved="0"/>
+			</RenderPass>
+			<RenderPass storage="0" name="TwitchEffect" type="DryWetEffect" uniqueTypeId="A183" uniqueId="1691245338686" baseType="DryWetEffect" index="1">
+				<Params name="Params">
+					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+						<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="1" linkId="/link4" linkName="TWITCH"/>
+					</ParamRange>
+				</Params>
+				<View name="View" folded="1"/>
+				<RenderPass name="TwitchEffect" type="TwitchEffect" uniqueTypeId="A183" uniqueId="1691245338660" baseType="Effect" dwType="Effect">
+					<Params name="Params">
+						<ParamRange name="Max Pos X" T="DOUBLE" default="0" value="0.3018181818181818743">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.3018181818181818743"/>
+						</ParamRange>
+						<ParamRange name="Max Pos Y" T="DOUBLE" default="0" value="0.29672718394886365978">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.29672718394886365978"/>
+						</ParamRange>
+						<ParamRange name="Pos Frequency" T="DOUBLE" default="0" value="0.27127263849431820786">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.27127263849431820786"/>
+						</ParamRange>
+						<ParamRange name="Max Scale" T="DOUBLE" default="0" value="0.099636452414772730402">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.099636452414772730402"/>
+						</ParamRange>
+						<ParamRange name="Scale Frequency" T="DOUBLE" default="0" value="1">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						</ParamRange>
+						<ParamRange name="Max Light" T="DOUBLE" default="0" value="0.70345436789772730624">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.70345436789772730624"/>
+						</ParamRange>
+						<ParamRange name="Light Frequency" T="DOUBLE" default="0" value="1">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						</ParamRange>
+						<ParamRange name="Max RGB Shift" T="DOUBLE" default="0" value="0.050181995738636360482">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.050181995738636360482"/>
+						</ParamRange>
+						<ParamRange name="RGB Frequency" T="DOUBLE" default="0" value="0.30327281605113637353">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.30327281605113637353"/>
+						</ParamRange>
+					</Params>
+				</RenderPass>
+				<ChoosableMixer name="Mixer">
+					<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691245338692" baseType="Mixer">
+						<Params name="Params">
+							<ParamRange name="Opacity" T="DOUBLE" default="1" value="0.98425196850393703585">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.98425196850393703585"/>
+							</ParamRange>
+						</Params>
+					</RenderPass>
+				</ChoosableMixer>
+			</RenderPass>
+			<RenderPass storage="0" name="HueRotate" type="DryWetEffect" uniqueTypeId="A128" uniqueId="1691318491794" baseType="DryWetEffect" index="2">
+				<View name="View" folded="1"/>
+				<RenderPass name="HueRotate" type="HueRotate" uniqueTypeId="A128" uniqueId="1691318491788" baseType="Effect" dwType="Effect">
+					<Params name="Params">
+						<ParamRange name="Hue Rotate" T="DOUBLE" default="0" value="0">
+							<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="0" linkId="/link1" linkName="COLO"/>
+						</ParamRange>
+					</Params>
+				</RenderPass>
+				<ChoosableMixer name="Mixer">
+					<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691318491800" baseType="Mixer"/>
+				</ChoosableMixer>
+			</RenderPass>
+			<RenderPass storage="0" name="ShiftRGB" type="DryWetEffect" uniqueTypeId="A153" uniqueId="1691318491833" baseType="DryWetEffect" index="3">
+				<Params name="Params">
+					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+						<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="1" linkId="/link2" linkName="RGB"/>
+					</ParamRange>
+				</Params>
+				<View name="View" folded="1"/>
+				<RenderPass name="ShiftRGB" type="ShiftRGB" uniqueTypeId="A153" uniqueId="1691318491806" baseType="Effect" dwType="Effect">
+					<Params name="Params">
+						<ParamChoice name="Mode" T="INT32" default="0" value="5" storeChoices="0"/>
+						<ParamRange name="R" T="DOUBLE" default="0" value="0.100877708514808484">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.550438854257404242"/>
+						</ParamRange>
+						<ParamRange name="G" T="DOUBLE" default="0" value="0.047303306021341473553">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.52365165301067073678"/>
+						</ParamRange>
+						<ParamRange name="B" T="DOUBLE" default="0" value="0.00070383275261320932259">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.50035191637630660466"/>
+						</ParamRange>
+					</Params>
+				</RenderPass>
+				<ChoosableMixer name="Mixer">
+					<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691318491839" baseType="Mixer">
+						<Params name="Params">
+							<ParamRange name="Opacity" T="DOUBLE" default="1" value="0.99212598425196851792">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.99212598425196851792"/>
+							</ParamRange>
+						</Params>
+					</RenderPass>
+				</ChoosableMixer>
+			</RenderPass>
+		</RenderPass>
+		<ChoosableMixer name="Blend"/>
+	</VideoTrack>
+	<Layer uniqueId="1691226172722" layerIndex="0">
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView" foldedControl="0">
+			<FoldParams name="FoldParams"/>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146270404" baseType="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691226169248" baseType="Effect" index="0">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464114" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Add" type="Add" uniqueTypeId="A005" uniqueId="1691226169364" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464115" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691226169368" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<Layer uniqueId="1691226172723" layerIndex="1">
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView" foldedControl="0">
+			<FoldParams name="FoldParams">
+				<FoldState component="/groupedcomponent/video/" folded="1"/>
+			</FoldParams>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Opacity" T="DOUBLE" default="0.5" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146270498" baseType="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691226169267" baseType="Effect" index="0">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464114" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Add" type="Add" uniqueTypeId="A005" uniqueId="1691318490519" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464115" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691226169360" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<Layer uniqueId="1691226172724" layerIndex="2">
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView" foldedControl="0">
+			<FoldParams name="FoldParams"/>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Opacity" T="DOUBLE" default="0.5" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146270310" baseType="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691226169286" baseType="Effect" index="0">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464114" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Add" type="Add" uniqueTypeId="A005" uniqueId="1691226169348" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464115" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691226169352" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<CrossFader name="CrossFader">
+		<Params name="Params">
+			<ParamRange name="Phase" T="DOUBLE" default="0" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+			</ParamRange>
+		</Params>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+				</ParamRange>
+				<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+				</ParamRange>
+			</Params>
+			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146269416" baseType="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691226172651" baseType="Effect" index="0">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464115" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1615203280761" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Blend mode">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" T="UINT64" default="0" value="67464115" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1615203280762" baseType="Mixer">
+					<Params name="Params">
+						<ParamRange name="Opacity" T="DOUBLE" default="1" value="0.23518519931369358256">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.23518519931369358256"/>
+						</ParamRange>
+					</Params>
+				</RenderPass>
+			</ChoosableMixer>
+		</VideoTrack>
+	</CrossFader>
+	<TempoController name="TempoController">
+		<Params name="Params">
+			<ParamRange name="Tempo" T="DOUBLE" default="120" value="111.22885675314959997">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.19006011823572832586"/>
+			</ParamRange>
+		</Params>
+	</TempoController>
+	<Deck name="Deck" uniqueId="1691226172680" closed="0" numLayersWithContent="2" numColumnsWithContent="5" numLayers="3" numColumns="9" deckIndex="0">
+		<Params name="Params">
+			<Param name="Name" T="STRING" default="empty" value="M1"/>
+		</Params>
+		<Column uniqueId="1691241432031" columnIndex="0"/>
+		<Column uniqueId="1691241432032" columnIndex="1"/>
+		<Column uniqueId="1691241432033" columnIndex="2"/>
+		<Column uniqueId="1691241432034" columnIndex="3"/>
+		<Column uniqueId="1691241432035" columnIndex="4"/>
+		<Column uniqueId="1691241432036" columnIndex="5"/>
+		<Column uniqueId="1691241432037" columnIndex="6"/>
+		<Column uniqueId="1691241432038" columnIndex="7"/>
+		<Column uniqueId="1691241432039" columnIndex="8"/>
+		<Clip name="Clip" uniqueId="1691241432004" layerIndex="0" columnIndex="0">
+			<PreloadData>
+				<VideoFile value=".\Media\M1\loop_carée_rose_orange.mp4"/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="loop_carée_rose_orange" value="loop_carée_rose_orange"/>
+				<ParamRange name="LoadProgress" T="DOUBLE" default="0" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamChoice name="TransportType" default="0" value="0" storeChoices="0"/>
+			</Params>
+			<Params name="Dashboard">
+				<ParamRange name="Link 1" altName="Hue Rotate" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+				</ParamRange>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="0">
+						<DurationSource name="DurationSource"/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultBeatsDuration="8">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
+								</ParamRange>
+							</Params>
+							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="5000"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams">
+					<FoldState component="/clipproperties/dashboard/" folded="0"/>
+				</FoldParams>
+			</ClipView>
+			<VideoTrack name="VideoTrack" manualDuration="0">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="0" value="0"/>
+				</Params>
+				<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275064" baseType="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691241440381" baseType="Effect" index="0">
+						<View name="View" folded="1" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+					<RenderPass storage="0" name="HueRotate" type="DryWetEffect" uniqueTypeId="A128" uniqueId="1691245338975" baseType="DryWetEffect" index="1">
+						<View name="View" folded="1"/>
+						<RenderPass name="HueRotate" type="HueRotate" uniqueTypeId="A128" uniqueId="1691245338969" baseType="Effect" dwType="Effect">
+							<Params name="Params">
+								<ParamRange name="Hue Rotate" T="DOUBLE" default="0" value="0">
+									<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="0" linkId="/link1" linkName="Hue Rotate"/>
+								</ParamRange>
+							</Params>
+						</RenderPass>
+						<ChoosableMixer name="Mixer">
+							<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691245338981" baseType="Mixer"/>
+						</ChoosableMixer>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend"/>
+				<PrimarySource>
+					<VideoSource name="VideoSource" width="1920" height="1080" type="VideoFormatReaderSource">
+						<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275633" baseType="RenderPassChain"/>
+						<VideoFormatReaderSource fileName=".\Media\M1\loop_carée_rose_orange.mp4" LoadingThread="TTM_MESSAGE"/>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1691241432013" layerIndex="1" columnIndex="0">
+			<PreloadData>
+				<VideoFile value="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Rond_vert Copier 01_5.mov"/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="Rond_vert Copier 01_5" value="Rond_vert Copier 01_5"/>
+				<ParamRange name="LoadProgress" T="DOUBLE" default="0" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamChoice name="TransportType" default="0" value="1" storeChoices="0"/>
+			</Params>
+			<Params name="Dashboard">
+				<ParamRange name="Link 1" altName="Hue Rotate" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+				</ParamRange>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="0">
+						<DurationSource name="DurationSource" defaultDuration="16b"/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultMillisecondsDuration="8033.3333333333339397" defaultBeatsDuration="16">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="16" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.125"/>
+								</ParamRange>
+								<Param name="DurationIsScalable" altName="Duration Changes With In &amp; Out Points" T="BOOL" default="1" value="0"/>
+								<Param name="TempoSynced" T="BOOL" default="0" value="1"/>
+							</Params>
+							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="8033.3333333333339397"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams">
+					<FoldState component="/clipproperties/dashboard/" folded="0"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/tracksettingscomponent/" folded="1"/>
+				</FoldParams>
+			</ClipView>
+			<VideoTrack name="VideoTrack" manualDuration="0">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="1" value="1"/>
+				</Params>
+				<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275059" baseType="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691354405027" baseType="Effect" index="0">
+						<View name="View" folded="1" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+					<RenderPass storage="0" name="HueRotate" type="DryWetEffect" uniqueTypeId="A128" uniqueId="1691354405155" baseType="DryWetEffect" index="1">
+						<RenderPass name="HueRotate" type="HueRotate" uniqueTypeId="A128" uniqueId="1691354405149" baseType="Effect" dwType="Effect">
+							<Params name="Params">
+								<ParamRange name="Hue Rotate" T="DOUBLE" default="0" value="0">
+									<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="0" linkId="/link1" linkName="Hue Rotate"/>
+								</ParamRange>
+							</Params>
+						</RenderPass>
+						<ChoosableMixer name="Mixer">
+							<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691354405161" baseType="Mixer"/>
+						</ChoosableMixer>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend"/>
+				<PrimarySource>
+					<VideoSource name="VideoSource" width="1920" height="1080" type="VideoFormatReaderSource">
+						<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275711" baseType="RenderPassChain"/>
+						<VideoFormatReaderSource fileName="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Rond_vert Copier 01_5.mov" LoadingThread="TTM_THREADED"/>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1691241432022" layerIndex="2" columnIndex="0"/>
+		<Clip name="Clip" uniqueId="1691241432005" layerIndex="0" columnIndex="1">
+			<PreloadData>
+				<VideoFile value="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Loop_glow_pentagone.mp4"/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="Loop_glow_pentagone" value="Loop_glow_pentagone"/>
+				<ParamRange name="LoadProgress" T="DOUBLE" default="0" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamChoice name="TransportType" default="0" value="0" storeChoices="0"/>
+			</Params>
+			<Params name="Dashboard">
+				<ParamRange name="Link 1" altName="Hue Rotate" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+				</ParamRange>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="0">
+						<DurationSource name="DurationSource" defaultDuration="5.9660000000000001918s"/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultMillisecondsDuration="5966" defaultBeatsDuration="8">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="5.9660000000000001918" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.3352329869259135231"/>
+								</ParamRange>
+							</Params>
+							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="8" detectedTempo="-1" manualTempo="120" detected="0"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="5966"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams">
+					<FoldState component="/clipproperties/dashboard/" folded="0"/>
+					<FoldState component="/clipproperties/transport/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/tracksettingscomponent/" folded="1"/>
+				</FoldParams>
+			</ClipView>
+			<VideoTrack name="VideoTrack" manualDuration="0">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="0" value="0"/>
+				</Params>
+				<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275108" baseType="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691241440570" baseType="Effect" index="0">
+						<View name="View" folded="1" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+					<RenderPass storage="0" name="HueRotate" type="DryWetEffect" uniqueTypeId="A128" uniqueId="1691354405389" baseType="DryWetEffect" index="1">
+						<RenderPass name="HueRotate" type="HueRotate" uniqueTypeId="A128" uniqueId="1691354405383" baseType="Effect" dwType="Effect">
+							<Params name="Params">
+								<ParamRange name="Hue Rotate" T="DOUBLE" default="0" value="0">
+									<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="0" linkId="/link1" linkName="Hue Rotate"/>
+								</ParamRange>
+							</Params>
+						</RenderPass>
+						<ChoosableMixer name="Mixer">
+							<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691354405395" baseType="Mixer"/>
+						</ChoosableMixer>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend"/>
+				<PrimarySource>
+					<VideoSource name="VideoSource" width="1920" height="1080" type="VideoFormatReaderSource">
+						<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275800" baseType="RenderPassChain"/>
+						<VideoFormatReaderSource fileName="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Loop_glow_pentagone.mp4" LoadingThread="TTM_MESSAGE"/>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1691245339061" layerIndex="1" columnIndex="1"/>
+		<Clip name="Clip" uniqueId="1691241432023" layerIndex="2" columnIndex="1"/>
+		<Clip name="Clip" uniqueId="1691241432006" layerIndex="0" columnIndex="2">
+			<PreloadData>
+				<VideoFile value="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\stockvideo4k_035.mov"/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="stockvideo4k_035" value="stockvideo4k_035"/>
+				<ParamRange name="LoadProgress" T="DOUBLE" default="0" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamChoice name="TransportType" default="0" value="0" storeChoices="0"/>
+			</Params>
+			<Params name="Dashboard">
+				<ParamRange name="Link 1" altName="COLO" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+				</ParamRange>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="0">
+						<DurationSource name="DurationSource" defaultDuration="10.009999999999999787s"/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultMillisecondsDuration="10010" defaultBeatsDuration="16">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="10.009999999999999787" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.19980019980019980697"/>
+								</ParamRange>
+							</Params>
+							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="16" detectedTempo="-1" manualTempo="120" detected="0"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="10010"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams">
+					<FoldState component="/clipproperties/dashboard/" folded="0"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/tracksettingscomponent/" folded="1"/>
+				</FoldParams>
+			</ClipView>
+			<VideoTrack name="VideoTrack" manualDuration="0">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="3840" value="3840">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.1171875"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="2160" value="2160">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.06591796875"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="0" value="0"/>
+				</Params>
+				<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275045" baseType="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691318491413" baseType="Effect" index="0">
+						<View name="View" folded="1" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+					<RenderPass storage="0" name="HueRotate" type="DryWetEffect" uniqueTypeId="A128" uniqueId="1691318491873" baseType="DryWetEffect" index="1">
+						<RenderPass name="HueRotate" type="HueRotate" uniqueTypeId="A128" uniqueId="1691318491867" baseType="Effect" dwType="Effect">
+							<Params name="Params">
+								<ParamRange name="Hue Rotate" T="DOUBLE" default="0" value="0">
+									<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="0" linkId="/link1" linkName="COLO"/>
+								</ParamRange>
+							</Params>
+						</RenderPass>
+						<ChoosableMixer name="Mixer">
+							<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691318491879" baseType="Mixer"/>
+						</ChoosableMixer>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend"/>
+				<PrimarySource>
+					<VideoSource name="VideoSource" width="3840" height="2160" type="VideoFormatReaderSource">
+						<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275877" baseType="RenderPassChain"/>
+						<VideoFormatReaderSource fileName="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\stockvideo4k_035.mov" LoadingThread="TTM_THREADED"/>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1691241432015" layerIndex="1" columnIndex="2"/>
+		<Clip name="Clip" uniqueId="1691241432024" layerIndex="2" columnIndex="2"/>
+		<Clip name="Clip" uniqueId="1691241432007" layerIndex="0" columnIndex="3">
+			<PreloadData>
+				<VideoFile value="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Abstract Red Neon Multicolor Lines Animation Video Background Loop  Free Footage.mp4"/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="Abstract Red Neon Multicolor Lines Animation Video Background Loop  Free Footage" value="Abstract Red Neon Multicolor Lines Animation Video Background Loop  Free Footage"/>
+				<ParamRange name="LoadProgress" T="DOUBLE" default="0" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamChoice name="TransportType" default="0" value="0" storeChoices="0"/>
+			</Params>
+			<Params name="Dashboard">
+				<ParamRange name="Link 1" altName="Hue Rotate" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+				</ParamRange>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="0">
+						<DurationSource name="DurationSource" defaultDuration="120.23300000000000409s"/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultMillisecondsDuration="120233" defaultBeatsDuration="256">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="120.23300000000000409" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.016634368268279089986"/>
+								</ParamRange>
+							</Params>
+							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="256" detectedTempo="-1" manualTempo="120" detected="0"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="120233"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams">
+					<FoldState component="/clipproperties/dashboard/" folded="0"/>
+					<FoldState component="/clipproperties/transport/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/tracksettingscomponent/" folded="1"/>
+				</FoldParams>
+			</ClipView>
+			<VideoTrack name="VideoTrack" manualDuration="0">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="0" value="0"/>
+				</Params>
+				<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275092" baseType="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691354405221" baseType="Effect" index="0">
+						<View name="View" folded="1" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+					<RenderPass storage="0" name="HueRotate" type="DryWetEffect" uniqueTypeId="A128" uniqueId="1691354405345" baseType="DryWetEffect" index="1">
+						<RenderPass name="HueRotate" type="HueRotate" uniqueTypeId="A128" uniqueId="1691354405339" baseType="Effect" dwType="Effect">
+							<Params name="Params">
+								<ParamRange name="Hue Rotate" T="DOUBLE" default="0" value="0">
+									<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="0" linkId="/link1" linkName="Hue Rotate"/>
+								</ParamRange>
+							</Params>
+						</RenderPass>
+						<ChoosableMixer name="Mixer">
+							<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691354405351" baseType="Mixer"/>
+						</ChoosableMixer>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend"/>
+				<PrimarySource>
+					<VideoSource name="VideoSource" width="1920" height="1080" type="VideoFormatReaderSource">
+						<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275954" baseType="RenderPassChain"/>
+						<VideoFormatReaderSource fileName="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Abstract Red Neon Multicolor Lines Animation Video Background Loop  Free Footage.mp4" LoadingThread="TTM_MESSAGE"/>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1691241432016" layerIndex="1" columnIndex="3"/>
+		<Clip name="Clip" uniqueId="1691241432025" layerIndex="2" columnIndex="3"/>
+		<Clip name="Clip" uniqueId="1691241432008" layerIndex="0" columnIndex="4">
+			<PreloadData>
+				<VideoFile value="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Abstract Neon Lines Speed Warp Motion Moving Background VJ Loop For Edits.mp4"/>
+			</PreloadData>
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="Abstract Neon Lines Speed Warp Motion Moving Background VJ Loop For Edits" value="Abstract Neon Lines Speed Warp Motion Moving Background VJ Loop For Edits"/>
+				<ParamRange name="LoadProgress" T="DOUBLE" default="0" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				</ParamRange>
+				<ParamChoice name="TransportType" default="0" value="0" storeChoices="0"/>
+			</Params>
+			<Params name="Dashboard">
+				<ParamRange name="Link 1" altName="Hue Rotate" T="DOUBLE" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+				</ParamRange>
+			</Params>
+			<Transport name="Transport">
+				<Params name="Params">
+					<ParamRange name="Position" T="DOUBLE" default="0" value="0">
+						<DurationSource name="DurationSource" defaultDuration="300.39699999999999136s"/>
+						<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" phase="0" defaultMillisecondsDuration="300397" defaultBeatsDuration="512">
+							<Params name="Params">
+								<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="300.39699999999999136" value="2">
+									<PhaseSourceStatic name="PhaseSourceStatic" phase="0.0066578561037560300001"/>
+								</ParamRange>
+							</Params>
+							<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="512" detectedTempo="-1" manualTempo="120" detected="0"/>
+						</PhaseSourceTransportTimeline>
+						<ValueRange name="minMax" min="0" max="300397"/>
+					</ParamRange>
+				</Params>
+			</Transport>
+			<ClipView name="ClipView">
+				<FoldParams name="FoldParams">
+					<FoldState component="/clipproperties/dashboard/" folded="0"/>
+					<FoldState component="/clipproperties/transport/" folded="1"/>
+					<FoldState component="/groupedcomponent/renderpasschaincomponent/huerotate/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/" folded="1"/>
+					<FoldState component="/groupedcomponent/videotrackinfocomponent/tracksettingscomponent/" folded="1"/>
+				</FoldParams>
+			</ClipView>
+			<VideoTrack name="VideoTrack" manualDuration="0">
+				<Params name="Params">
+					<ParamRange name="Width" T="DOUBLE" default="1920" value="1920">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.05859375"/>
+					</ParamRange>
+					<ParamRange name="Height" T="DOUBLE" default="1080" value="1080">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032958984375"/>
+					</ParamRange>
+					<Param name="RScale" T="BOOL" default="1" value="1"/>
+					<Param name="GScale" T="BOOL" default="1" value="1"/>
+					<Param name="BScale" T="BOOL" default="1" value="1"/>
+					<Param name="AScale" T="BOOL" default="0" value="0"/>
+				</Params>
+				<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146275054" baseType="RenderPassChain">
+					<RenderPass storage="0" name="Transform" type="TransformEffect" uniqueTypeId="17122039101699797593" uniqueId="1691354421031" baseType="Effect" index="0">
+						<View name="View" folded="1" bCanBeDisabled="0" bCanBeRemoved="0"/>
+					</RenderPass>
+					<RenderPass storage="0" name="HueRotate" type="DryWetEffect" uniqueTypeId="A128" uniqueId="1691354421514" baseType="DryWetEffect" index="1">
+						<View name="View" folded="1"/>
+						<RenderPass name="HueRotate" type="HueRotate" uniqueTypeId="A128" uniqueId="1691354421508" baseType="Effect" dwType="Effect">
+							<Params name="Params">
+								<ParamRange name="Hue Rotate" T="DOUBLE" default="0" value="0">
+									<PhaseSourceDashboardLink name="PhaseSourceDashboardLink" phase="0" linkId="/link1" linkName="Hue Rotate"/>
+								</ParamRange>
+							</Params>
+						</RenderPass>
+						<ChoosableMixer name="Mixer">
+							<RenderPass name="Alpha" type="Alpha" uniqueTypeId="A006" uniqueId="1691354421520" baseType="Mixer"/>
+						</ChoosableMixer>
+					</RenderPass>
+				</RenderPass>
+				<ChoosableMixer name="Blend"/>
+				<PrimarySource>
+					<VideoSource name="VideoSource" width="1920" height="1080" type="VideoFormatReaderSource">
+						<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueTypeId="RenderPassChain" uniqueId="1701146276031" baseType="RenderPassChain"/>
+						<VideoFormatReaderSource fileName="C:\Users\romai\Desktop\TVn7\VJING\LOOP Back\Media\M1\Abstract Neon Lines Speed Warp Motion Moving Background VJ Loop For Edits.mp4" LoadingThread="TTM_MESSAGE"/>
+					</VideoSource>
+				</PrimarySource>
+			</VideoTrack>
+		</Clip>
+		<Clip name="Clip" uniqueId="1691241432017" layerIndex="1" columnIndex="4"/>
+		<Clip name="Clip" uniqueId="1691241432026" layerIndex="2" columnIndex="4"/>
+		<Clip name="Clip" uniqueId="1691241432009" layerIndex="0" columnIndex="5"/>
+		<Clip name="Clip" uniqueId="1691241432018" layerIndex="1" columnIndex="5"/>
+		<Clip name="Clip" uniqueId="1691241432027" layerIndex="2" columnIndex="5"/>
+		<Clip name="Clip" uniqueId="1691241432010" layerIndex="0" columnIndex="6"/>
+		<Clip name="Clip" uniqueId="1691241432019" layerIndex="1" columnIndex="6"/>
+		<Clip name="Clip" uniqueId="1691241432028" layerIndex="2" columnIndex="6"/>
+		<Clip name="Clip" uniqueId="1691241432011" layerIndex="0" columnIndex="7"/>
+		<Clip name="Clip" uniqueId="1691241432020" layerIndex="1" columnIndex="7"/>
+		<Clip name="Clip" uniqueId="1691241432029" layerIndex="2" columnIndex="7"/>
+		<Clip name="Clip" uniqueId="1691241432012" layerIndex="0" columnIndex="8"/>
+		<Clip name="Clip" uniqueId="1691241432021" layerIndex="1" columnIndex="8"/>
+		<Clip name="Clip" uniqueId="1691241432030" layerIndex="2" columnIndex="8"/>
+	</Deck>
+	<Notes name="Notes">
+		<Note text_size_multiplier="2" text_color_index="3" text=""/>
+	</Notes>
+</Composition>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScreenSetup name="ScreenSetup">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<CurrentCompositionTextureSize width="1920" height="1080"/>
+	<screens>
+		<Screen name="Screen 1" uniqueId="1717360254184">
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="" value="Screen 1"/>
+			</Params>
+			<guides>
+				<ScreenGuide name="ScreenGuide" type="0"/>
+				<ScreenGuide name="ScreenGuide" type="1"/>
+			</guides>
+			<layers>
+				<Slice uniqueId="1717360254185">
+					<Params name="Common">
+						<Param name="Name" T="STRING" default="Layer" value="Slice 1"/>
+					</Params>
+					<InputRect orientation="0">
+						<v x="0" y="0"/>
+						<v x="1920" y="0"/>
+						<v x="1920" y="1080"/>
+						<v x="0" y="1080"/>
+					</InputRect>
+					<OutputRect orientation="0">
+						<v x="0" y="0"/>
+						<v x="1920" y="0"/>
+						<v x="1920" y="1080"/>
+						<v x="0" y="1080"/>
+					</OutputRect>
+					<Warper>
+						<BezierWarper controlWidth="4" controlHeight="4">
+							<vertices>
+								<v x="0" y="0"/>
+								<v x="640" y="0"/>
+								<v x="1280" y="0"/>
+								<v x="1920" y="0"/>
+								<v x="0" y="360"/>
+								<v x="640" y="360"/>
+								<v x="1280" y="360"/>
+								<v x="1920" y="360"/>
+								<v x="0" y="720"/>
+								<v x="640" y="720"/>
+								<v x="1280" y="720"/>
+								<v x="1920" y="720"/>
+								<v x="0" y="1080"/>
+								<v x="640" y="1080"/>
+								<v x="1280" y="1080"/>
+								<v x="1920" y="1080"/>
+							</vertices>
+						</BezierWarper>
+						<Homography>
+							<src>
+								<v x="0" y="0"/>
+								<v x="1920" y="0"/>
+								<v x="1920" y="1080"/>
+								<v x="0" y="1080"/>
+							</src>
+							<dst>
+								<v x="0" y="0"/>
+								<v x="1920" y="0"/>
+								<v x="1920" y="1080"/>
+								<v x="0" y="1080"/>
+							</dst>
+						</Homography>
+					</Warper>
+				</Slice>
+			</layers>
+			<OutputDevice>
+				<OutputDeviceDisplay name="Display 5" deviceId="\Registry\Machine\System\CurrentControlSet\Control\Video\{75CE78B2-9E86-11ED-8E96-E603BE40165F}\0000" idHash="10074755115581920612" fullscreen="1" width="1920" height="1080"/>
+			</OutputDevice>
+		</Screen>
+	</screens>
+	<SoftEdging/>
+</ScreenSetup>
+

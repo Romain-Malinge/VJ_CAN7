@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionsManager name="ExtensionsManager">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<Favorites>
+		<Favorite uniqueID="A120"/>
+		<Favorite uniqueID="A128"/>
+	</Favorites>
+</ExtensionsManager>
+

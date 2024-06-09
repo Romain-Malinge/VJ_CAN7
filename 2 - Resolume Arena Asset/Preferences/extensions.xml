@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionListInspector name="ExtensionListInspector">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<Lists>
+		<List type="Source">
+			<Items>
+				<Item uniqueId="11421072728336491440" open="0"/>
+				<Item uniqueId="736772465707583394" open="0"/>
+				<Item uniqueId="7946640550597690042" open="0"/>
+				<Item uniqueId="844752396506092017" open="0"/>
+				<Item uniqueId="8642267115" open="0"/>
+				<Item uniqueId="884102460919" open="0"/>
+				<Item uniqueId="9011349750094602" open="0"/>
+				<Item uniqueId="A401" open="0"/>
+				<Item uniqueId="Generators" open="0"/>
+				<Item uniqueId="MSTR" open="0"/>
+				<Item uniqueId="NDI Servers" open="0"/>
+				<Item uniqueId="P201" open="0"/>
+				<Item uniqueId="P204" open="0"/>
+				<Item uniqueId="Routing" open="0"/>
+				<Item uniqueId="Wire Sources" open="0"/>
+				<Item uniqueId="c_35de2952-eebe-4238-ac4a-2e9864da6621" open="0"/>
+			</Items>
+		</List>
+		<List type="Effect">
+			<Items>
+				<Item uniqueId="A101" open="0"/>
+				<Item uniqueId="A117" open="0"/>
+				<Item uniqueId="Audio Effects" open="0"/>
+			</Items>
+		</List>
+	</Lists>
+</ExtensionListInspector>
+

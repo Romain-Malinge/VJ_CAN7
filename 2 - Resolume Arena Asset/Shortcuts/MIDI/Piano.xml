@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MidiShortcutPreset name="Piano" presetId="-205540443">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
+	<ShortcutManager name="MIDIShortcutManagerShortcuts">
+		<Shortcut name="Shortcut" uniqueId="1704896490401" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/2/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/2/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/2/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337748880" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490411" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/4/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/4/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/4/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/4/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337749648" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490406" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/3/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/3/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/3/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337749392" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490466" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/15/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/15/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/15/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/15/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337754512" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490446" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/11/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/11/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/11/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/11/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337752720" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490416" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/5/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/5/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/5/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337750160" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490441" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/10/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/10/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/10/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/10/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337752464" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490436" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/9/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/9/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/9/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/9/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337751952" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490426" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/7/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/7/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/7/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/7/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337750928" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490431" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/8/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/8/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/8/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/8/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337751440" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490451" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/12/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/12/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/12/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/12/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337753232" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490456" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/13/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/13/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/13/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/13/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337753744" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490421" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/6/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/6/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/6/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337750672" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490461" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/14/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/14/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/14/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/14/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337754000" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1704896490471" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="CASIO USB-MIDI" outputDeviceName="CASIO USB-MIDI">
+			<ShortcutPath name="InputPath" path="/composition/layers/16/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/16/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/16/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/16/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="121738991337755024" value="0" numSteps="128"/>
+			<NamedValues>
+				<Value first="Connected" second="0.75"/>
+				<Value first="Connected &amp; previewing" second="1"/>
+				<Value first="Disconnected" second="0.25"/>
+				<Value first="Empty" second="0"/>
+				<Value first="Off" second="0"/>
+				<Value first="Previewing" second="0.5"/>
+			</NamedValues>
+		</Shortcut>
+	</ShortcutManager>
+</MidiShortcutPreset>
+
