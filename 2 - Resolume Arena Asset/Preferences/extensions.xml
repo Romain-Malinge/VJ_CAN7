@@ -27,6 +27,8 @@
 				<Item uniqueId="A101" open="0"/>
 				<Item uniqueId="A117" open="0"/>
 				<Item uniqueId="Audio Effects" open="0"/>
+				<Item uniqueId="Favorites" open="0"/>
+				<Item uniqueId="Wire Effects" open="0"/>
 			</Items>
 		</List>
 	</Lists>
