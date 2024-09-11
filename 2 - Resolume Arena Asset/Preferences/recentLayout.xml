@@ -4,19 +4,23 @@
 	<Desktop>
 		<Window panel_id="65" main="1" full_screen="1" x="-21" y="31" width="1725" height="793">
 			<FlexContainer panel_id="64" orientation="0">
-				<FlexContainer panel_id="63" width_desired="1138" orientation="1">
-					<FlexContainer panel_id="70" height_desired="627" orientation="0">
+				<FlexContainer panel_id="63" width_desired="1132" orientation="1">
+					<FlexContainer panel_id="70" height_desired="411" orientation="0">
 						<LayersAndClips width_desired="1000" height_desired="318"/>
 					</FlexContainer>
 					<Toolbar width_desired="1000" height_desired="36"/>
 					<FlexContainer panel_id="118" height_desired="290" orientation="0">
-						<FlexContainer panel_id="120" width_desired="435" orientation="1">
+						<FlexContainer panel_id="120" width_desired="433" orientation="1">
 							<TabbedContainer panel_id="121">
 								<Monitor width_desired="350" height_desired="300" instance="0" subject_type="Composition" checker_board="0"/>
+							</TabbedContainer>
+						</FlexContainer>
+						<FlexContainer panel_id="124" width_desired="346" orientation="1">
+							<TabbedContainer panel_id="125">
 								<Monitor width_desired="350" height_desired="300" instance="1" subject_type="Preview" checker_board="1"/>
 							</TabbedContainer>
 						</FlexContainer>
-						<FlexContainer panel_id="119" width_desired="453" orientation="1">
+						<FlexContainer panel_id="119" width_desired="347" orientation="1">
 							<TabbedContainer panel_id="52">
 								<Files width_desired="350" height_desired="300"/>
 								<Effects width_desired="350" height_desired="300"/>
@@ -25,7 +29,7 @@
 						</FlexContainer>
 					</FlexContainer>
 				</FlexContainer>
-				<FlexContainer panel_id="122" width_desired="394" orientation="1">
+				<FlexContainer panel_id="122" width_desired="400" orientation="1">
 					<TabbedContainer panel_id="91">
 						<Composition width_desired="350" height_desired="300"/>
 						<Group width_desired="350" height_desired="300"/>

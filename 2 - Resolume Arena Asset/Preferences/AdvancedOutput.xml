@@ -3,16 +3,93 @@
 	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="15" microVersion="0" revision="23381"/>
 	<CurrentCompositionTextureSize width="1920" height="1080"/>
 	<screens>
-		<Screen name="Screen 1" uniqueId="1717360254184">
+		<Screen name="Screen 3" uniqueId="1724663273952">
 			<Params name="Params">
-				<Param name="Name" T="STRING" default="" value="Screen 1"/>
+				<Param name="Name" T="STRING" default="" value="Screen 3"/>
+				<Param name="Enabled" T="BOOL" default="1" value="0"/>
 			</Params>
 			<guides>
 				<ScreenGuide name="ScreenGuide" type="0"/>
 				<ScreenGuide name="ScreenGuide" type="1"/>
 			</guides>
 			<layers>
-				<Slice uniqueId="1717360254185">
+				<Slice uniqueId="1724663273966">
+					<Params name="Common">
+						<Param name="Name" T="STRING" default="Layer" value="Slice 1"/>
+					</Params>
+					<InputRect orientation="0">
+						<v x="0" y="300"/>
+						<v x="1920" y="300"/>
+						<v x="1920" y="780"/>
+						<v x="0" y="780"/>
+					</InputRect>
+					<OutputRect orientation="0">
+						<v x="0" y="265.00006103515625"/>
+						<v x="1920" y="265.00006103515625"/>
+						<v x="1920" y="750"/>
+						<v x="0" y="750"/>
+					</OutputRect>
+					<Warper>
+						<BezierWarper controlWidth="4" controlHeight="4">
+							<vertices>
+								<v x="0" y="265.00006103515625"/>
+								<v x="640" y="265.00006103515625"/>
+								<v x="1280" y="265.00006103515625"/>
+								<v x="1920" y="265.00006103515625"/>
+								<v x="0" y="426.666717529296875"/>
+								<v x="640" y="426.666717529296875"/>
+								<v x="1280" y="426.666717529296875"/>
+								<v x="1920" y="426.666717529296875"/>
+								<v x="0" y="588.3333740234375"/>
+								<v x="640" y="588.3333740234375"/>
+								<v x="1280" y="588.3333740234375"/>
+								<v x="1920" y="588.3333740234375"/>
+								<v x="0" y="750"/>
+								<v x="640" y="750"/>
+								<v x="1280" y="750"/>
+								<v x="1920" y="750"/>
+							</vertices>
+						</BezierWarper>
+						<Homography>
+							<src>
+								<v x="0" y="265.00006103515625"/>
+								<v x="1920" y="265.00006103515625"/>
+								<v x="1920" y="750"/>
+								<v x="0" y="750"/>
+							</src>
+							<dst>
+								<v x="0" y="265.00006103515625"/>
+								<v x="1920" y="265.00006103515625"/>
+								<v x="1920" y="750"/>
+								<v x="0" y="750"/>
+							</dst>
+						</Homography>
+					</Warper>
+				</Slice>
+			</layers>
+			<OutputDevice>
+				<OutputDeviceVirtual name="Screen 3" deviceId="VirtualScreen 3" idHash="10094742552620344506" width="1920" height="1080">
+					<Params name="Params">
+						<ParamRange name="Width" T="DOUBLE" default="800" value="1920">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.058565019684438612835"/>
+						</ParamRange>
+						<ParamRange name="Height" T="DOUBLE" default="600" value="1080">
+							<PhaseSourceStatic name="PhaseSourceStatic" phase="0.032929471724600971327"/>
+						</ParamRange>
+					</Params>
+				</OutputDeviceVirtual>
+			</OutputDevice>
+		</Screen>
+		<Screen name="Screen 4" uniqueId="1724690705337">
+			<Params name="Params">
+				<Param name="Name" T="STRING" default="" value="Screen 4"/>
+			</Params>
+			<guides>
+				<ScreenGuide name="ScreenGuide" type="0"/>
+				<ScreenGuide name="ScreenGuide" type="1"/>
+			</guides>
+			<layers>
+				<Slice uniqueId="1724690705351">
 					<Params name="Common">
 						<Param name="Name" T="STRING" default="Layer" value="Slice 1"/>
 					</Params>

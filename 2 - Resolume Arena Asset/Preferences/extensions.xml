@@ -12,6 +12,7 @@
 				<Item uniqueId="884102460919" open="0"/>
 				<Item uniqueId="9011349750094602" open="0"/>
 				<Item uniqueId="A401" open="0"/>
+				<Item uniqueId="Capture Devices" open="0"/>
 				<Item uniqueId="Generators" open="0"/>
 				<Item uniqueId="MSTR" open="0"/>
 				<Item uniqueId="NDI Servers" open="0"/>
@@ -27,7 +28,6 @@
 				<Item uniqueId="A101" open="0"/>
 				<Item uniqueId="A117" open="0"/>
 				<Item uniqueId="Audio Effects" open="0"/>
-				<Item uniqueId="Favorites" open="0"/>
 				<Item uniqueId="Wire Effects" open="0"/>
 			</Items>
 		</List>
